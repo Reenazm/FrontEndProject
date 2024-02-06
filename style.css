@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6386cc;
+}
+ #logoimage{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+}
+.navbar{
+    background-color:  #061a37;
+} 
+.nav-link{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+}
+.navbar-brand:hover{
+    color: #dc143c;
+}
+.btn{
+margin: 5px;
+}
+
+.nav-item a:hover{
+ color: #dc143c;
+}
+#Packages{
+    background-color: #1d447f;
+    
+}
+.dropdown-menu a :hover{
+    color:#dc143c;
+}
+.dropdown-item a{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.dropdown-item:not(:hover) {
+    color: #fff;
+}
+.bgimg{
+    background-image: url('polynesia.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+#welcomename {
+    margin-bottom: 20px;
+}
+
+#Placename {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+}
+#change h1,h2,p{
+    color:#000;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn{
+    transition: background-color 0.3s ease-in-out;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+#change h1,h2,p{
+    color:#000;
+    font-family: 'Ubuntu', sans-serif;
+}
+#change{
+    background-color:#ba8b93;
+}
+#change h2{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#textchange{
+     font-size: 30px;
+}
+#textchange:after{
+     content: "";
+    animation-name: textchangeanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* for text transition */
+@keyframes textchangeanim {
+    0%{
+      content: " ";
+    }
+    25% {
+        content:" United states";                 
+    }
+    50% {
+        content:"India";                   
+    }
+    75% {
+        content:"France";                
+    }
+    100% {
+        content:"Germany";                    
+    }
+}
+        
